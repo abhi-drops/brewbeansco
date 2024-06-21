@@ -1,0 +1,117 @@
+h1{
+  font-family: "Black Ops One", system-ui;
+
+}
+
+
+
+h2{
+  font-family: "Shadows Into Light", cursive;
+}
+
+*{
+  font-family: "Josefin Sans", sans-serif;
+
+}
+
+.hlow{
+  position: sticky;
+  top: 0;
+}
+
+.bg-orange{
+  background-color: #FFCD38;
+}
+
+.bg-yellow{
+  background-color: #fF3F3F3;
+}
+.bg-hash{
+  background-color: rgb(255, 245, 204);
+}
+.text-brown{
+  color: #f4b805;
+}
+
+.text-grey{
+  color: white;
+}
+
+.text-lbrown{
+  color: rgb(170, 86, 12);
+}
+
+button{
+  color: rgb(170, 86, 12);
+  border: solid;
+  border-color: rgb(170, 86, 12);
+  background-color: rgb(170, 86, 12);
+  color:rgb(255, 245, 204);
+}
+
+button:hover{
+  background-color: rgb(255, 245, 204);
+  color:rgb(170, 86, 12);
+}
+
+
+.font-rh{
+  font-family: "Righteous", sans-serif;
+}
+
+.hero-para{
+  text-align: justify;
+  border: solid rgba(255, 183, 0, 0.26);
+
+}
+
+.tbi{
+  width: 20vw;
+  height: 17vw;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.ggi{
+  width: 15vw;
+  height: 12vw;
+  object-fit: cover;
+  border-radius: 2px;
+
+}
+
+.ggi:hover{
+  border-radius: 5px;
+  scale: 1.05;
+  transition: all 0.3s;
+  box-shadow: rgba(0, 0, 0, 0.463) 0px 10px 10px;
+}
+
+.box{
+  border: solid rgba(255, 183, 0, 0.26);
+  background-color:  rgb(255, 248, 218);
+}
+
+.hp{
+  font-size: 1.3rem;
+  position: fixed;
+  z-index: 1;
+  bottom: 5vh;
+  right: 10vh;
+}
+
+.hp:hover{
+  scale: 1.05;
+  transition: all 0.3s;
+
+}
+
+.query{
+  background-color: rgb(255, 245, 204);
+}
+
+.footer{
+  position: relative;
+  z-index: 20;
+
+}
